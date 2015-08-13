@@ -1,6 +1,6 @@
 {
   "name": "package-json-io",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Read and update package.json files",
   "main": "index.js",
   "scripts": {
@@ -31,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/watson/package-json-io/issues"
   },
-  "homepage": "https://github.com/watson/package-json-io#readme"
+  "homepage": "https://github.com/watson/package-json-io#readme",
+  "coordinates": [
+    53.03138330080557,
+    13.30483871092531
+  ]
 }
