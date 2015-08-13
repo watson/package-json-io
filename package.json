@@ -1,0 +1,35 @@
+{
+  "name": "package-json-io",
+  "version": "0.0.0",
+  "description": "Read and update package.json files",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/package-json-io.git"
+  },
+  "devDependencies": {
+    "os-tmpdir": "^1.0.1",
+    "standard": "^5.0.2",
+    "tape": "^4.1.0"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "package",
+    "packagejson",
+    "package.json",
+    "load",
+    "read",
+    "save",
+    "update"
+  ],
+  "bugs": {
+    "url": "https://github.com/watson/package-json-io/issues"
+  },
+  "homepage": "https://github.com/watson/package-json-io#readme"
+}
