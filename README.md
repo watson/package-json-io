@@ -32,15 +32,15 @@ pkg.read(function (err, data) {
 #### `read([file], callback)` 
 
 Will read the `package.json` file in the current working directory
-unless the optinal `file` argument specifies another file.
+unless the optional `file` argument specifies another file.
 
-Will call the `callback` with an optinal error argument and the data
+Will call the `callback` with an optional error argument and the data
 from the parsed `package.json` file.
 
 #### `update([file], data, callback)` 
 
 Will replace the `package.json` file in the current working directory
-(unless the optinal `file` argument specifies another file) with the
+(unless the optional `file` argument specifies another file) with the
 provided `data` object.
 
 Will call the `callback` when done with an optional error argument.
